@@ -1,8 +1,8 @@
 all: build run
 
 build:
-	alex src/Lexer.x
-	happy src/Parser.y
+	alex  --ghc src/Lexer.x
+	happy --ghc src/Parser.y
 	ghc -isrc -o compiler src/Main.hs src/AST.hs src/CodeGen.hs src/TypeChecker.hs src/Lexer.hs src/Parser.hs
 
 run: build
