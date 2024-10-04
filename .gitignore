@@ -1,2 +1,8 @@
 .stack-work/
 *~
+*.hi
+*.o
+compiler
+src/Lexer.hs
+src/Parser.hs
+dist/
