@@ -103,5 +103,5 @@ Code Generation for Real Assembly: Adapt CodeGen.hs to output real assembly code
 
 ## Resources
 
-<a href="https://book.realworldhaskell.org">Real World Haskell</a>: Excellent book for learning Haskell and functional programming.
+<a href="https://book.realworldhaskell.org">Real World Haskell</a>: Excellent book for learning Haskell and functional programming.</br>
 <a href="https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools">Compilers</a>: Principles, Techniques, and Tools: Also known as the "Dragon Book," this is the classic book on compiler construction.
