@@ -92,8 +92,6 @@ The test results will indicate whether each compiler component works as expected
 
 ## Extending the Compiler
 
-This project provides a foundational setup, but there are many features you can add:
-
 Additional Expressions: Extend the parser and code generator to handle subtraction, multiplication, and division.
 Conditionals and Loops: Add support for if statements and loops (like while and for).
 Function Calls: Implement support for defining and calling functions.
