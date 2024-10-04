@@ -13,18 +13,18 @@ Currently, this compiler supports:
 ### Project Structure
 The project is organized as follows:
 
-Lexer.x # Lexer definitions for tokens (processed by Alex)
-Parser.y # Parser definitions for syntax (processed by Happy) 
-AST.hs # Abstract Syntax Tree definitions for C constructs 
-CodeGen.hs # Code generator to transform AST into pseudo-assembly or machine code 
-TypeChecker.hs # Type checker for validating expressions (optional at first) 
-Main.hs # Main entry point to compile input files
-Tokens.hs # Token definitions (output from Alex) 
-sample.c # Sample input C code to test the compiler 
-test_cases.hs # Haskell test cases for unit testing Lexer, Parser, CodeGen, etc.
-Makefile # Build file to automate compilation using alex, happy, and ghc
-README.md # Overview of the project, instructions for setup and usage
-.gitignore # Standard .gitignore for Haskell and compiled files
+Lexer.x # Lexer definitions for tokens (processed by Alex)</br>
+Parser.y # Parser definitions for syntax (processed by Happy)</br>
+AST.hs # Abstract Syntax Tree definitions for C constructs</br> 
+CodeGen.hs # Code generator to transform AST into pseudo-assembly or machine code</br> 
+TypeChecker.hs # Type checker for validating expressions (optional at first)</br> 
+Main.hs # Main entry point to compile input files</br>
+Tokens.hs # Token definitions (output from Alex)</br> 
+sample.c # Sample input C code to test the compiler</br> 
+test_cases.hs # Haskell test cases for unit testing Lexer, Parser, CodeGen, etc.</br>
+Makefile # Build file to automate compilation using alex, happy, and ghc</br>
+README.md # Overview of the project, instructions for setup and usage</br>
+.gitignore # Standard .gitignore for Haskell and compiled files</br>
 
 ---
 
