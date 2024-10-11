@@ -20,13 +20,13 @@ import Lexer
   '='    { Assign }
   '+'    { Plus }
 
-%% 
+%%
 
 Program :: Program
-    : Function { Program [$$] }
+    : Function { Program $$ }
 
 Function :: Function
-    : int ident '(' ')' '{' Stmt '}' { Function $$2 [$$6] }
+    : int ident '(' ')' '{' Stmt '}' { Function $$1 $$3 }
 
 Stmt :: Stmt
     : ident '=' Exp ';' { AssignStmt $$1 $$3 }

@@ -10,7 +10,7 @@ $alpha = [a-zA-Z]
 
 tokens :-
 
-$white+                  ;
+$white+                  ;  -- Skip whitespace
 "int"                    { \s -> IntType }
 "return"                 { \s -> Return }
 $alpha($alpha|$digit)*   { \s -> Ident s }
